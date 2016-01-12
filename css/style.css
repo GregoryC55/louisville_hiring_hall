@@ -1,0 +1,95 @@
+/*=====general======*/
+body {
+  background-color: #6699ff;
+  text-align: center;
+  color: #33001a;
+  font-family: Frutiger, "Frutiger Linotype", Univers, Calibri;
+}
+.article {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  background-color: #99ccff;
+  margin-left: 10%;
+  width: 80%;
+}
+h2, h3, h4 {
+  text-align: center;
+  background-color: #9933ff;
+  margin-left:10%;
+  width: 80%;
+}
+/*======header======*/
+.main_header {
+  padding-top: 5px;
+  background-color: blue;
+  background-image: url(../images/background6.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  height: 205px;
+}
+.main_title {
+  display:inline-block;
+  color: #ffff00;
+  text-shadow: 0 0 10px black, 0 0 20px #ff0000;
+  font-size: 42px;
+}
+/*======navigation======*/
+.main_nav a {
+  border: 1px solid white;
+  margin-left: -2px;
+  background-color: #0099ff;
+  display: inline-block;
+}
+/*=========images========*/
+.image {
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*=======footer=======*/
+footer {
+  text-align:center;
+  background-color: gray;
+  padding-top:10px;
+  padding-right: 5px;
+  margin-left: 10%;
+  width: 80%;
+}
+/*======Links============*/
+a:link {
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+}
+a:visited {
+  color: #660033;
+}
+a:hover {
+  background-color: #666699;
+  color: black;
+}
+a:active {
+  color: #00ff00;
+}
+/*========Tables===========*/
+table {
+  margin-left: 10%;
+  border-collapse:collapse;
+  width: 80%;
+}
+table, th, td {
+  border: 1px solid black;
+}
+th, td {
+  text-align: center;
+  padding: 5px;
+}
+th {
+  background-color: green;
+  color: white;
+}
+td {
+  background-color: #33cc33;
+}
