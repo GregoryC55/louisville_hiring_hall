@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Louisville Hiring Hall</title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<header class="main_header">
+    <h1 class="main_title">Louisville Hiring Hall</h1>
+    <nav class="main_nav">
+      <a href="index.html">News</a>
+      <a href="contracts.html">Contracts</a>
+      <a href="active_units.html">Active Units</a>
+      <a href="aar.html">Battle Reports</a>
+      <a href="game_resources.html">Game Resources</a>
+      <a href="generator.html">Unit Generator</a>
+      <a href="about.html">About</a>
+    </nav>
+	</header>
+  <div class="article">
+    <h2>Random Unit Generator for the Federated Suns in 3085</h2>
+    <p>NOTE: All units are listed by name and variant number/type.</p>
+    <h3>BattleMechs</h3>
+    <div class="generator1">
+      <p>Click below to generate a random light BattleMech</p>
+      <button onclick="davionLightmech()">Random</button>
+      <p id="davion1"></p>
+      <script>
+      function davionLightmech() {
+      var lightMechs = ["LCT-3D Locust", "VLK-QA Valkyrie", "HNT-151 Hornet", "HNT-171 Hornet", "ALM-7D Fireball", "VLK-QD Valkyrie", "JVN-10P Javelin", "OSR-3D Osiris", "V4-LNT-J3 Valiant", "VLK-QD1 Valkyrie", "JVN-11D Javelin", "VLK-QD4 Valkyrie", "ALM-10D Fireball", "VLK-QD3 Valkyrie", "SCB-9T Scarabus", "OSR-4D Osiris", "JVN-11F Javelin", "GRM-01C Garm", "TLN-6W Talon"];
+  var random = Math.floor((Math.random() * 19));
+  document.getElementById("davion1").innerHTML = lightMechs[random];
+      }
+      </script>
+    </div>
+    <div class="generator2">
+      <p>Click below to generate a random medium BattleMech</p>
+      <button onclick="dracMediummech()">Random</button>
+      <p id="drac2"></p>
+      <script>
+      function dracMediummech() {
+      var mediumMechs = ["CMA-C Chimera", "WTH-K Whitworth", "PXH-1K Phoenix Hawk ", "WFT-C Wolf Trap", "DMO-1K Daimyo", "TSN-C3 Tessen", "WVR-9W2 Wolverine", "WFT-2B Wolf Trap", "DMO-5K Daimyo", "KIM-2C Komodo", "PXH-7K Phoenix Hawk", "BSN-5KC Bishamon ", "FS9-O Firestarter", "SCP-12K Scorpion", "SR1-O Strider", "SKW-2F Shockwave", "GRF-5K Griffin", "BJ2-O Blackjack", "TFT-A9 Thunder Fox"];
+  var random = Math.floor((Math.random() * 19));
+  document.getElementById("drac2").innerHTML = mediumMechs[random];
+      }
+      </script>
+    </div>
+    <div class="generator3">
+      <p>Click below to generate a random heavy BattleMech</p>
+      <button onclick="dracHeavymech()">Random</button>
+      <p id="drac3"></p>
+      <script>
+      function dracHeavymech() {
+      var heavyMechs = ["QKD-C Quickdraw", "JM6-DD JagerMech", "DRG-1G Grand Dragon", "CPLT-K5 Catapult", "CDR-5K Crusader", "OSR-4K Ostroc", "DAI-02 Daikyu", "NDA-2KC No-Dachi", "DRG-9KC Grand Dragon", "MAD-9W2 Marauder", "NJT-3 Ninja-To", "GHR-7K Grasshopper", "BHKU-O Black Hawk-Ku", "SJA-8H Shugenja", "MTR-5K Maelstrom", "AV1-O Avatar", "Ha Otoko 3", "WHM-8K Warhammer", "EXC-CS Excalibur"];
+  var random = Math.floor((Math.random() * 19));
+  document.getElementById("drac3").innerHTML = heavyMechs[random];
+      }
+      </script>
+    </div>
+    <div class="generator4">
+      <p>Click below to generate a random assault BattleMech</p>
+      <button onclick="dracAssaultmech()">Random</button>
+      <p id="drac4"></p>
+      <script>
+      function dracAssaultmech() {
+      var assaultMechs = ["VTR-C Victor", "MAL-C Mauler", "CGR-1A9 Charger", "MR-V2 Cerberus", "CRK-5003-CJ Katana", "HTM-27T Hatamoto-Chi", "AKU-2X Akuma", "CGR-KMZ Charger", "BLR-K3 BattleMaster ", "HTM-28Tr Hatamoto-Chi ", "GUN1-ERD Gunslinger", "AWS-10KM Awesome", "TSH-8S Tai-sho", "NG-C3A Naginata", "OBK-10M O-Bakemono", "SD1-O Sunder ", "NG-C3B Naginata", "Mad Cat Mk II", "AS7-CM Atlas"];
+  var random = Math.floor((Math.random() * 19));
+  document.getElementById("drac4").innerHTML = assaultMechs[random];
+      }
+      </script>
+    </div>
+    <br class="break">
+    <h3>Vehicles</h3>
+    <div class="generator1">
+      <p>Click below to generate a random light Vehicle</p>
+      <button onclick="dracLightvehicle()">Random</button>
+      <p id="drac5"></p>
+      <script>
+      function dracLightvehicle() {
+      var lightVehicles = ["Skulker (C3M)", "Pegasus", "Scorpion (MRM)", "Saladin", "Saracen", "Scimitar", "Saladin (LB-X)", "Saracen (MRM)", "Crow", "Pegasus", "Saladin (Ultra)", "Scimitar (TAG)", "Crow (C3) ", "Yasha", "Scimitar (C3)", "Yasha (Interdictor)", "Pegasus (X-Pulse) ", "Balac (LRM)", "Svantovit"];
+  var random = Math.floor((Math.random() * 19));
+  document.getElementById("drac5").innerHTML = lightVehicles[random];
+      }
+      </script>
+      </div>
+      <div class="generator2">
+      <p>Click below to generate a random medium Vehicle</p>
+      <button onclick="dracMediumvehicles()">Random</button>
+      <p id="drac6"></p>
+      <script>
+      function dracMediumvehicles() {
+      var mediumVehicles = ["Turhan (C3)", "Vedette", "Prowler (Succession Wars)", "Maxim", "Condor", "Turhan", "Vedette (NETC)", "Maxim (BA Factory)", "Myrmidon", "Maxim (I)", "Hiryo (MRM)", "Maxim (Fire Support)", "Condor (Upgrade)", "Hiryo", "Fulcrum III", "SM1 Tank Destroyer ", "Hiryo (Bloodhound)", "BE700 Joust Tank", "Maxim Mk. II"];
+  var random = Math.floor((Math.random() * 19));
+  document.getElementById("drac6").innerHTML = mediumVehicles[random];
+      }
+      </script>
+    </div>
+    <div class="generator3">
+      <p>Click below to generate a random heavy Vehicle</p>
+      <button onclick="dracHeavyvehicle()">Random</button>
+      <p id="drac7"></p>
+      <script>
+      function dracHeavyvehicle() {
+      var heavyVehicles = ["MRM Carrier", "Bulldog (AC/2)", "Zhukov", "SRM Carrier", "Manticore", "Bulldog ", "MRM Carrier", "Tokugawa TKG-150 ", "Manticore (C3S)", "Tokugawa", "Manticore (C3M)", "Tokugawa (C3)", "LRM Carrier", "Manticore (HPPC)", "Kinnol", "Tokugawa (MRM)", "Tokugawa (Streak)", "Ishtar", "Shoden"];
+  var random = Math.floor((Math.random() * 19));
+  document.getElementById("drac7").innerHTML = heavyVehicles[random];
+      }
+      </script>
+    </div>
+    <div class="generator4">
+      <p>Click below to generate a random assault Vehicle</p>
+      <button onclick="dracVehicle()">Random</button>
+      <p id="drac8"></p>
+      <script>
+      function dracVehicle() {
+      var assaultVehicle = ["Behemoth (Kurita)", "Devastator", "Schrek", "Ontos", "Behemoth", "Schrek", "Demolisher", "Demolisher (MRM)", "Partisan (Cell)", "Schrek (Armor)", "Schrek (C3M)", "Behemoth (Kurita)", "Demolisher (Gauss)", "Schiltron", "J.E.S. II", "Demolisher II", "Schiltron", "Alacorn Mk. VI", "DI Morgan"];
+  var random = Math.floor((Math.random() * 19));
+  document.getElementById("drac8").innerHTML = assaultVehicle[random];
+      }
+      </script>
+    </div>
+      <br class="break">
+      <h3>Aerospace Fighers and Dropships</h3>
+      <div class="generator1">
+      <p>Click below to generate a random light Aerospace Fighter</p>
+      <button onclick="dracLightfighter()">Random</button>
+      <p id="drac9"></p>
+      <script>
+      function dracLightfighter() {
+      var lightFighters = ["SL-21 Sholagar", "SL-21 Sholagar", "SL-21L Sholagar", "SB-27 Sabre", "SL-21 Sholagar", "S-3 Sai", "F-11 Cheetah", "S-4X Sai", "S-4 Sai", "SL-22 Sholagar", "F-11 Cheetah", "S-8 Sai", "SB-29 Sabre", "SL-22 Sholagar", "S-7 Sai", "F-13 Cheetah", "S-4C Sai", "Bashkir", "SB-31D Sabre"];
+  var random = Math.floor((Math.random() * 19));
+  document.getElementById("drac9").innerHTML = lightFighters[random];
+      }
+      </script>
+    </div>
+    <div class="generator2">
+      <p>Click below to generate a random medium Aerospace Fighter</p>
+      <button onclick="dracMediumfighters()">Random</button>
+      <p id="drac10"></p>
+      <script>
+      function dracMediumfighters() {
+      var mediumFighters = ["SL-17 Shilone", "LCF-R16K Lucifer II", "F-90 Stingray", "SL-17 Shilone", "SL-17 Shilone", "SL-17R Shilone", "F-92 Stingray", "SL-17R Shilone", "LCF-R16KR Lucifer II", "SL-17R Shilone", "ON-1 Oni", "SL-17R Shilone", "F-92 Stingray", "SL-18 Shilone ", "MIK-O Tatsu*", "SL-18 Shilone", "MIK-O Tatsu", "F-95 Stingray", "Ammon"];
+  var random = Math.floor((Math.random() * 19));
+  document.getElementById("drac10").innerHTML = mediumFighters[random];
+      }
+      </script>
+    </div>
+    <div class="generator3">
+      <p>Click below to generate a random heavy Aerospace Fighter</p>
+      <button onclick="dracHeavyfighter()">Random</button>
+      <p id="drac11"></p>
+      <script>
+      function dracHeavyfighter() {
+      var heavyFighters = ["SL-15 Slayer", "SL-15A Slayer", "F-100b Riever", "SL-15 Slayer", "TRB-D36 Thunderbird", "SL-15 Slayer", "SL-15R Slayer", "SL-15R Slayer", "TRB-D36 Thunderbird", "SL-15R Slayer", "F-700 Riever", "SL-15K Slayer", "SL-15K Slayer", "HSCL-1-O Huscarl", "SL-15K Slayer", "F-700a Riever", "SL-15K Slayer", "SU-14 Suzaku", "SU-14 Suzaku"];
+  var random = Math.floor((Math.random() * 19));
+  document.getElementById("drac11").innerHTML = heavyFighters[random];
+      }
+      </script>
+    </div>
+    <div class="generator4">
+      <p>Click below to generate a random Dropship</p>
+      <button onclick="dracDropship()">Random</button>
+      <p id="drac12"></p>
+      <script>
+      function dracDropship() {
+      var dropship = ["Excalibur (2786)", "Triumph (3057)", "Overlord (3056) ", "Union (3055)", "Condor (2801)", "Leopard (2537)", "Nagumo", "Intruder (2655)", "Okinawa", "Vengeance (2782)", "Intruder (3056)", "Rose", "Nagumo", "Achilles (3055)", "Nekohono’o", "Nekohono’o (SCL)", "Nekohono’o (HQ)", "Taihou", "Taihou"];
+  var random = Math.floor((Math.random() * 19));
+  document.getElementById("drac12").innerHTML = dropship[random];
+      }
+      </script>
+    </div>
+    <br class="break">
+    <h3>Battle Armor</h3>
+    <div class="generator1">
+      <p>Click below to generate a random Battle Armor Unit</p>
+      <button onclick="dracBattlearmor()">Random</button>
+      <p id="drac13"></p>
+      <script>
+      function dracBattlearmor() {
+      var battleArmor = ["Raiden (Original)", "Inner Sphere Standard", "Kage (Space)", "Inner Sphere Standard", "Kage", "Raiden", "Kage (Vibro-Claw)", "Void (Minelayer)", "Kage", "Void", "Raiden (Anti-Infantry)", "Kanazuchi", "Void", "Kanazuchi (Upgrade)", "Void (DCA)", "Clan Medium - Rabid", "Kage (DEST)"];
+  var random = Math.floor((Math.random() * 17));
+  document.getElementById("drac13").innerHTML = battleArmor[random];
+      }
+      </script>
+    </div>
+    <br class="break">
+    <h3>Draconis Combine 3085</h3>
+    </div>
+ 	<footer>
+    <p>Established 2015</p>
+	</footer>
+</body>
+</html>
