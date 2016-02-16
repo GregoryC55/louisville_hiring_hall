@@ -9,7 +9,7 @@
 	<header class="main_header">
     <h1 class="main_title">Louisville Hiring Hall</h1>
     <nav class="main_nav">
-      <a href="index.html">News</a>    
+      <a href="index.html">News</a>
       <a href="contracts.html">Contracts</a>
       <a href="active_units.html">Active Units</a>
       <a href="aar.html">Battle Reports</a>
@@ -22,8 +22,31 @@
       <h2>About</h2>
       <a href="http://www.bg.battletech.com"><img class="image" src="../images/btlogo.png" class="image" alt="Battletech Homepage logo"></a>
       <p>LouisvilleHiringHall.com is a group of individuals who play the BattleTech boardgame in the Louisville, KY and southern Indiana area.  We support all rulesets for the game, but focus on Total Warfare and Alpha Strike rules.  We also support all eras of play so everyone is welcome!</p>
-      <p>Please visit us on Facebook at Louisville Hiring Hall or you may email us<a href="mailto:louisvillehiringhall@gmail.com">here</a>.</p>
-    </div> 
+        <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script>
+        <div id="map"></div>
+    <script>
+      function initMap() {
+        var mapDiv = document.getElementById('map');
+        var map = new google.maps.Map(mapDiv, {
+          center: {lat: 38.2500, lng: -85.7667},
+          zoom: 8
+        });
+      }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?callback=initMap"
+        async defer></script>
+  <p>Please visit us on Facebook at Louisville Hiring Hall or you may email with the form below:</p>
+      <form action="MAILTO:louisvillehiringhall@gmail.com" method="post" enctype="text/plain">
+        Name:<br>
+        <input type="text" name="name" value="your name"><br>
+        E-mail:<br>
+        <input type="text" name="mail" value="your email"><br>
+        Comment:<br>
+        <input type="text" name="comment" value="your comment"><br><br>
+        <input type="submit" value="Send">
+        <input type="reset" value="Reset">
+      </form>
+    </div>
 	<footer>
     <p>Established 2015</p>
 	</footer>
