@@ -11,8 +11,8 @@ body {
   background-color: #99ccff;
 }
 .article p {
-  margin-left: 10%;
-  width: 80%;
+  margin-left: 5%;
+  width: 90%;
 }
 h2, h3, h4 {
   color: #5DFC0A;
@@ -20,11 +20,18 @@ h2, h3, h4 {
 	background-color:#221F99;
 	text-align:center;
 	border-radius:5px;
+  margin-left: 10%;
+  width: 80%;
 }
 /*========Email form=======*/
 form {
   text-align:center;
 }
+/*========Jquery=========*/
+.secret {
+  display: none;
+}
+
 /*===========Google map=========*/
 #map {
   overflow:hidden;
@@ -48,6 +55,11 @@ form {
 	top:210px;
 	background-color:#99CCFF;
   padding-top: 10px;
+}
+.units {
+  text-align:center;
+  position:relative;
+  padding-bottom: 5px;
 }
 .main_title {
   text-shadow: 0 0 10px white, 0 0 20px #221F99;
@@ -107,7 +119,6 @@ form {
 .break {
   clear: left;
 }
-
 /*=========images========*/
 .image, .image_b {
   display:block;
@@ -129,7 +140,7 @@ footer {
 /*======Links============*/
 .year a:link {
   text-decoration: none;
-  text-align:center;
+  text-align: center;
   width:120px;
 	margin-top:2px;
 	margin-left:5px;
@@ -142,6 +153,21 @@ footer {
   display: block;
   margin: 0 auto;
 }
+.units a:link {
+  text-decoration: none;
+  text-align: center;
+  width:120px;
+  margin-top:2px;
+  margin-left:5px;
+  margin-right:5px;
+  padding-top:-1px;
+  color:#c97b2c;
+  border:2px white outset;
+  border-radius:5px;
+  background-color:#221F99;
+  margin: 0 auto;
+}
+
 a:link {
   text-decoration: none;
   color: white;
