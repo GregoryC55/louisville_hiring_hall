@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Louisville Hiring Hall</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+      integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
+      crossorigin="anonymous">
+	<link rel="stylesheet" href="css/style.css">
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script> -->
+  <!-- <script src="JQuery/scripts.js"></script> -->
+</head>
+<body>
+  <div class="container">
+    	<header class="main_header">
+        <h1 class="main_title">Louisville Hiring Hall</h1>
+        <nav class="main_nav">
+          <a href="index.html">News</a>
+          <a href="contracts.html">Contracts</a>
+          <a href="active_units.html">Active Units</a>
+          <a href="quiz.html">Lore</a>
+          <a href="game_resources.html">Game Resources</a>
+          <a href="generator.html">Unit Generator</a>
+          <a href="about.html">About</a>
+        </nav>
+    	</header>
+      <div class="article">
+      <h2>Are you a master of BattleTech lore?</h2>
+          <p>The BattleTech gaming universe is over 30 years old and encompasses over 1000 years of alternate history across
+            thousands of star systems.  For those who want to learn more or test their knowledge of the Inner Sphere, please
+            participate in this short quiz below.  If you are stumped, click the button next to each question to reveal the answer.
+              Good luck!</p>
+            <div ng-app="quizApp">
+              <div ng-controller="mainCtrl">
+                <p>When did Natasha Kerensky, the famed Black Widow, die?</p>
+                <label>Your Answer!</label>
+                <input type="text"/>
+                <div>
+                  <button ng-click="widow()">Click here to test your Answer!</button>
+                </div>
+              </div>
+            </div>
+        </div>
+  	<footer>
+      <p>Established 2015</p>
+      <p>Battletech is owned by<a href="http://www.topps.net">Topps</a>.  Battletech images used without permission for this fan site only.<p>
+  	</footer>
+  </div>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
+      integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
+      crossorigin="anonymous">
+  </script>
+  <script src="vendors/angular.js" type="text/javascript"></script>
+  <script src="scripts/app.js" type="text/javascript"></script>
+</body>
+</html>
