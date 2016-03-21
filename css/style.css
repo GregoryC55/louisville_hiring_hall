@@ -230,35 +230,21 @@ td {
   }
   .image {
     height: 150px;
-    width: 150px;    
+    width: 150px;
   }
 }
-/*@media (max-width: 1040px) {
-  .container {
-    width: 900px;
-    }
+@media (min-width:430px) and (max-width: 1070px) {
 
-
-/*@media (min-width: 481px) {
+h2 {
+  padding-top: 10px;
+  }
   .main_header {
-    background-image: none;
+    background-color: #99ccff;
+    background-image: url(../images/background6.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    height: 325px;
   }
-  .container {
-    width: 451px;
-  }
+
 }
-@media (min-width: 768px) {
-  .container {
-    width: 768px;
-  }
-}
-@media (min-width: 992px) {
-  .container {
-    width: 970px;
-  }
-}
-@media (min-width: 1200px) {
-  .container {
-    width: 1170px;
-  }
-}*/
