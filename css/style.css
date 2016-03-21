@@ -234,7 +234,6 @@ td {
   }
 }
 @media (min-width:430px) and (max-width: 1070px) {
-
 h2 {
   padding-top: 10px;
   }
@@ -246,5 +245,4 @@ h2 {
     text-align: center;
     height: 325px;
   }
-
 }
