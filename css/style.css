@@ -9,9 +9,10 @@ body {
 .article {
   padding: 5px;
   background-color: #99ccff;
+  margin: auto;
 }
 .article p {
-  margin-left: 5%;
+  margin: 0 auto;
   width: 90%;
 }
 h2, h3, h4 {
@@ -23,21 +24,18 @@ h2, h3, h4 {
   margin-left: 10%;
   width: 80%;
 }
-/*========Email form=======*/
-form {
-  text-align:center;
-}
 /*========Jquery=========*/
 .secret {
   display: none;
 }
-
-/*===========Google map=========*/
-#map {
-  overflow:hidden;
-  height:300px;
-  width:300px;
-  margin: 0 auto;
+/*===========Quiz============*/
+.quiz {
+  align: center;
+}
+.quiz p {
+  width: 100%;
+  font-size: 20px;
+  text-decoration-line: underline;
 }
 /*======header======*/
 .main_header {
@@ -60,6 +58,7 @@ form {
   text-align:center;
   position:relative;
   padding-bottom: 5px;
+  padding-top: 5px;
 }
 .main_title {
   text-shadow: 0 0 10px white, 0 0 20px #221F99;
@@ -82,12 +81,12 @@ form {
 	margin-right:5px;
 	padding-top:-1px;
 	color:##5DFC0A;
-	border:2px white outset;
+	border:2px #5DFC0A outset;
 	border-radius:5px;
 	background-color:#221F99;
 }
 .main_nav a:hover {
-	color:#D9AC62;
+	color:#5DFC0A;
 	background-color:#593599;
 }
 /*=========generators========*/
@@ -136,6 +135,7 @@ footer {
   color: white;
   background-color: #221f99;
   padding: 1px;
+  clear:both;
 }
 /*======Links============*/
 .year a:link {
@@ -146,7 +146,7 @@ footer {
 	margin-left:5px;
 	margin-right:5px;
 	padding-top:-1px;
-	color:#c97b2c;
+	color:#5DFC0A;
 	border:2px white outset;
 	border-radius:5px;
 	background-color:#221F99;
@@ -161,7 +161,7 @@ footer {
   margin-left:5px;
   margin-right:5px;
   padding-top:-1px;
-  color:#c97b2c;
+  color:#5DFC0A;
   border:2px white outset;
   border-radius:5px;
   background-color:#221F99;
@@ -170,7 +170,7 @@ footer {
 
 a:link {
   text-decoration: none;
-  color: white;
+  color: #ffffff;
   padding: 5px;
 }
 a:visited {
@@ -203,7 +203,6 @@ th {
 td {
   background-color: #a9d4ff;
 }
-
 /*===================Media Query============================*/
 @media (max-width: 428px) {
   h2, h3 {
@@ -229,9 +228,9 @@ td {
     height: 46px;
     width: 200px;
   }
-  #map {
-    width: 150px;
+  .image {
     height: 150px;
+    width: 150px;    
   }
 }
 /*@media (max-width: 1040px) {
